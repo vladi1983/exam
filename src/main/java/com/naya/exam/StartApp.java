@@ -10,5 +10,4 @@ public class StartApp {
 
         SpringApplication.run(StartApp.class, args);
     }
-
 }

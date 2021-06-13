@@ -1,15 +1,13 @@
 package com.naya.exam.models.dto
 
-import java.util.Date
-
 case class Event(
                   eventId: Int,
-                  eventTime: Date,
-                  country: String,
-                  currencyCode: String,
+                  eventTime: String,
+                  eventCountry: String,
+                  eventCurrencyCode: String,
                   userId: Int,
                   bet: Double,
                   gameName: String,
                   win: Double,
-                  onlineTimeSecs:Int
+                  onlineTimeSecs: Int
                 )
