@@ -1,4 +1,4 @@
-package com.naya.exam.utils.validator
+package com.naya.exam.util.validator
 
 object ValidatorSuspiciousActivity {
 

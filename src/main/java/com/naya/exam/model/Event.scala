@@ -1,4 +1,4 @@
-package com.naya.exam.models.dto
+package com.naya.exam.model
 
 case class Event(
                   eventId: Int,

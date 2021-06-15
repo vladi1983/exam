@@ -1,8 +1,10 @@
-package com.naya.exam.repositories
+package com.naya.exam.repository
 
-import com.naya.exam.models.dto.Event
+import com.naya.exam.model.Event
 import org.apache.spark.sql.{Dataset, Encoders, Row, SparkSession}
+import org.springframework.stereotype.Repository
 
+@Repository
 class EventRepo(sparkSession: SparkSession) {
 
   def readEvents(): Dataset[Row] = {

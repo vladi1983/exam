@@ -1,7 +1,9 @@
-package com.naya.exam.repositories
+package com.naya.exam.repository
 
 import org.apache.spark.sql.{Dataset, Row, SparkSession}
+import org.springframework.stereotype.Repository
 
+@Repository
 class PlayerRepo(sparkSession: SparkSession) {
 
   def readUsers(): Dataset[Row] = {
